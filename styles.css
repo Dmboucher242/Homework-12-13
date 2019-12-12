@@ -1,0 +1,28 @@
+.wrapper{
+    text-align: center;
+}
+h1{
+    margin-bottom: 100px;
+    color: darkslategrey;
+}
+h2{
+    color: darkslategrey;
+    padding-right: 290px;
+}
+textarea{
+    width: 500px;
+    height: 125px;
+}
+.btn{
+    margin-right: 275px;
+    background-color: firebrick;
+    height: 30px;
+    color: white;
+}
+.btn2{
+    margin-left: 120px;
+    background-color: gray;
+    height: 30px;
+    color: white;
+    margin-top: -50px;
+}
