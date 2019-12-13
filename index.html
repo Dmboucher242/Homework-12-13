@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css"> 
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
 
 </head>
-<body>
-    <div class="page"> 
 
+<body>
+    
+    <div class="page">
+        
         <h1>Password Generator</h1>
         
         <div class="container">
@@ -24,8 +26,8 @@
                         <input type="text" id="textbox">
                         <br />
                         <input type="range" min="8" max="128" name="slidebar" id="slidebar">
-                        <button onclick="generate">Generate Password</button>
-                        <button onclick="">Copy to Clipboard</button>
+                        <button id="generateBtn">Generate Password</button>
+                        <button id="copyBtn">Copy to Clipboard</button>
                         <div id="length"></div>
                     </div>
                     
@@ -37,6 +39,9 @@
             </div>
             
         </div>
-            
-        </body>
-        </html>
+        
+        <script src="script.js"></script>
+
+</body>
+
+</html>
