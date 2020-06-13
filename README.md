@@ -18,4 +18,4 @@ Project is created with:
 	
 ## Setup
 To run this project open in your default web browser.
-[click here](https://dmboucher242.github.io/Homework-12-13/)
+[click here](https://dmboucher242.github.io/Password-Generator/)
